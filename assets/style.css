@@ -1,26 +1,156 @@
-h1 { 
-color: blue;
-background-color: red;
+* {
+  font-family: "Manrope", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(240, 240, 248);
+  font-size: 30px;
+  text-decoration: overline;
+
+}
+
+h2 {
+    color: rgb(34, 34, 123);
+    margin: 30px;
+    position: absolute;
+    width: 15%;
+    border: 3px solid rgb(34, 34, 123);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h3{
+  color: rgb(149, 149, 152);
+  font-weight: bolder;
+}
+
+p, a {
+  color: rgb(34, 34, 123);
+  text-decoration: none;
+}
+a:hover {
+  background: #ddd;
+  color: black;
+}
+
+ul  {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 header {
-    background-color: aquamarine;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
+  position: fixed;
+  padding: 10px;
+  display: inline-flex;
 }
+
 nav {
-    background-color: blueviolet;
-    padding: 10px;
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
+  padding: 25px;
+  width: 50%;
+  display: flex; 
+  justify-content: space-evenly;
+  background-color: rgb(34, 34, 123);
+  border-radius: 15px;
 }
 /* Justify content is the main axis of a flex container
 By default the flex direction is row: so justify-content will work on the x axis
 align-items is the cross axis
 */
-p {
-    background-color: greenyellow;
-    border: 2px solid black;
-    width:20%;
+.nav {
+  color: rgb(240, 240, 248);
+  border: 2px solid rgb(240, 240, 248);
+  border-radius: 5px;
+  width: 30%;
+  padding: 2px;
+  margin: 5px;
+  text-align: center;
+}
+
+.nav-right {
+margin-left: 820px;
+}
+
+.body {
+  margin-top:  60px;
+}
+
+.name {
+ margin-top: 0%; 
+ margin-left: 30px;
+justify-content: space-evenly;
+ 
+}
+
+.container,
+.container2,
+.container3 {
+  display: flex;
+  justify-content: center;
+}
+
+.card1 {
+  width: 60%;
+  height: 350px;
+  margin: 10px;
+  border-radius: 15px;
+  border-width: 10px;
+  border-color: rgb(240, 240, 248);
+}
+.card2,
+.card3 {
+  width: 30%;
+  height: 350px;
+  margin: 10px;
+  border-radius: 15px;
+  border-width: 10px;
+  border-color: rgb(240, 240, 248);
+}
+
+
+.card4 {
+  width: 60%;
+  height: 350px;
+  margin: 10px;
+  border-radius: 15px;
+  border-width: 10px;
+  border-color: rgb(240, 240, 248);
+}
+
+.card-image {
+  height: 200px;
+  margin-bottom: 5px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+  position: static;
+}
+
+.img-1 {
+  background-image: url("DSC02252.JPEG");
+}
+
+.img-2 {
+  background-image: url(https://www.marciocunha.eti.br/wp-content/uploads/2023/01/html5.jpg);
+}
+
+.img-3{
+ background-image: url(https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.png);
+}
+
+.img-4 {
+ background-image: url(https://amalieshaffer.com//wp-content/uploads/2021/05/lets-connect.png);
+}
+
+.card-title {
+  font-size: 20px;
+  text-decoration-line: underline;
+  
+}
+
+footer {
+
+  text-align: center;
+  color: rgb(184, 184, 231);
+
 }
