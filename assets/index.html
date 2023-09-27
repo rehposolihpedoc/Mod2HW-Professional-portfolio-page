@@ -10,29 +10,23 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Manrope"
     />
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREAAAAAEREREQAAAAARERERAAAAABEREREAAAAAEREREREREREREREREREREREREREREREREREREREREREREREREAAAAREREREQAAABEREBEREAABEREAARERABEREAAAEREREREAAAABEREREAAAAAAREREAAAAAAAEREAAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAfgAAAH4AAAg8EAAMGDAADgBwAA8A8AAPgfAAD8PwAA" rel="icon" type="image/x-icon">
   </head>
   <!--## User Story
 ```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
-## Acceptance Criteria
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+
+1(WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them) Done
+2(WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section)DONE
+3(WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications) 
+4(WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others)
+5(WHEN I click on the images of the applications
+THEN I am taken to that deployed application)
+6(WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport)
 ```
 -->
   <body>
@@ -52,9 +46,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
     <section>
       <h2>ABOUT ME ></h2>
     </section>
-    <section class="container">
+    <section class="container" data-tooltip="LETS CONNECT! 😃">
       <div class="card1" id="about">
-        <div class="card-image img-1"></div>
+        <div class="card-image img-1" alt="Picture of Yemi Ayeni"></div>
         <h3 class="card-title">A little about me</h3>
         <br/>
         <p>
@@ -67,8 +61,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
         </p>
       </div>
     </section>
-
-    <section>
+    <section class="middle">
       <h2>MY WORK ></h2>
     </section>
     <section class="container2">
@@ -92,7 +85,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
       </div>
     </section>
 
-    <section>
+    <section class="bottom">
       <h2>CONTACT ME ></h2>
     </section>
     <section class="container3">
@@ -117,7 +110,32 @@ THEN I am presented with a responsive layout that adapts to my viewport
       </div>
     </section>
   </main>
-
+  
+  <div class="container">
+    <form action="https://docs.google.com/spreadsheets/d/1iPwLlWdEazUcWDVKtlPlY6P1MmH61ohhHVHs1OcA124/edit#gid=0">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <br>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <br>
+      <label for="I want to">I Want To</label>
+      <select id="I want to" name="I want to">
+        <option value="Talk about work">Connect</option>
+        <option value="Side Gig">Side Progect</option>
+        <option value="Other">Other</option>
+      </select>
+      <br>
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+      <br>
+      <button value="CONNECT NOW">CONNECT NOW</button>
+    
+  
+    </form>
+    <br>
     <footer>&copy; A Enterprises LLC. All rights reserved.</footer>
+  </div>
   </body>
 </html>

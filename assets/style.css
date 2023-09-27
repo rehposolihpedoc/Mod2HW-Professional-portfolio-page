@@ -83,6 +83,7 @@ justify-content: space-evenly;
  
 }
 
+
 .container,
 .container2,
 .container3 {
@@ -119,27 +120,58 @@ justify-content: space-evenly;
 }
 
 .card-image {
-  height: 200px;
+  
   margin-bottom: 5px;
   background-size: cover;
   border-radius: 15px 15px 0 0;
   position: static;
 }
 
+.container::before,
+.container::after {
+  position: absolute;
+  --scale: 0;
+  top: 25rem;
+  left: 50%;
+  transform: translateX(-25%) translateY(-220%) scale(var(--scale));
+  transition: 150ms transform;
+  transform-origin: bottom center;
+
+}
+
+.container::before {
+    content: attr(data-tooltip);
+    color: white;
+    padding: .5rem;
+    background: rgb(34, 34, 123);
+    border-radius: 15px;
+    width: max-content;
+    max-width: 100%;
+    text-align: center;
+}
+
+.container:hover::before {
+  --scale: 1;
+ }
+
 .img-1 {
-  background-image: url("DSC02252.JPEG");
+background-image: url("DSC02252.JPEG");
+height: 400px;
 }
 
 .img-2 {
   background-image: url(https://www.marciocunha.eti.br/wp-content/uploads/2023/01/html5.jpg);
+  height: 200px;
 }
 
 .img-3{
  background-image: url(https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.png);
+ height: 200px;
 }
 
 .img-4 {
  background-image: url(https://amalieshaffer.com//wp-content/uploads/2021/05/lets-connect.png);
+ height: 200px;
 }
 
 .card-title {
@@ -147,10 +179,70 @@ justify-content: space-evenly;
   text-decoration-line: underline;
   
 }
+.middle,
+.bottom
+{
+  margin-top: 200px;
+}
 
 footer {
 
+  margin-top: 200px;
   text-align: center;
   color: rgb(184, 184, 231);
 
+}
+
+form {
+  position: absolute;
+  color: rgb(240, 240, 248);
+  background-attachment: fixed;
+  background-color: rgb(34, 34, 123);
+  padding: 15px 30px 15px 30px;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 300px;
+  width: 60%;
+
+
+}
+
+label {
+  text-align: left;
+  margin-left: 33%;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 15px;
+}
+
+input {
+  margin-left: 0;
+  border-color: rgb(240, 240, 248);
+  width: 100%;
+}
+
+button {
+  position: absolute;
+  align-items: center;
+  margin-left: 33%;
+  width: 30%;
+  height: 50px;
+  font-size: 25px;
+  color: rgb(184, 184, 231);
+  background-color: rgb(240, 240, 248);
+  border-radius: 15px;
+}
+button:hover {
+  background: #ddd;
+  color: rgb(34, 34, 123);
+}
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  main {
+    max-width: 1200px;
+  }
 }
