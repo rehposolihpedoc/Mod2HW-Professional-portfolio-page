@@ -1,4 +1,4 @@
-# Module2homework 
+# Module2homework (About-Me Page for portfolio)
 ## Description
 - I wanted to create a webpage that will be a foundation for my future portfolio.
 - This project will open up opportunities for future employment and collaboration.
@@ -10,11 +10,11 @@
 - Programming Language: CSS
 ## Usage
 
-![Link to GitHub repository](assets/Screen Shot 2023-09-28 at 9.57.00 AM.png)
+![Link to GitHub repository](ScreenShot.png)
 
 ## Credits
 - https://www.w3schools.com/css/css_grid.asp
--flexbox https://www.youtube.com/watch?v=qXRYMdvq_Dc
+- flexbox https://www.youtube.com/watch?v=qXRYMdvq_Dc
 
 ## License
 MIT License
