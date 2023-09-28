@@ -1,22 +1,68 @@
+<h1 align="center">Hi 👋, I'm Yemi Ayeni</h1>
+<h3 align="center">A Junior Developer improving everyday</h3>
+
+- 🔭 I’m currently working on [Semantic html and CSS](https://rehposolihpedoc.github.io/Module-1-Challenge/)
+
+- Link to wesite:
+
+- 🌱 I’m currently learning **html,CSS & JS**
+
+- 👨‍💻 All of my projects are available at [https://github.com/rehposolihpedoc/Prework-Study-Guide/tree/main](https://github.com/rehposolihpedoc/Prework-Study-Guide/tree/main)
+
 # Module2homework (About-Me Page for portfolio)
+
+## User Story
+
+```
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+```
+
+## Acceptance Criteria
+
+Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+
+```
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+```
+
 ## Description
+
 - I wanted to create a webpage that will be a foundation for my future portfolio.
 - This project will open up opportunities for future employment and collaboration.
 - The problem of not having a professional web page to showcase my work is now solved.
 - I learned how all the fundementals of CSS and HTML have to work together to produce an amazing page. Planning is the key to execution. By drawinging out a framework by hand I made my dream into reality.
+
 ## Installation
+
 - IDE: VS-CODE
 - Markup language: HTML
 - Programming Language: CSS
+
 ## Usage
 
 ![Link to GitHub repository](ScreenShot.png)
 
 ## Credits
+
 - https://www.w3schools.com/css/css_grid.asp
 - flexbox https://www.youtube.com/watch?v=qXRYMdvq_Dc
 
 ## License
+
 MIT License
 
 Copyright (c) [2023] [Yemi Ayeni]
@@ -40,4 +86,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Badges
-

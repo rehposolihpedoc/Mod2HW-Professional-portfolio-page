@@ -124,6 +124,7 @@ align-items is the cross axis
   position: static;
 }
 
+/*Flexbox*/
 .container::before,
 .container::after {
   position: absolute;
@@ -149,19 +150,20 @@ align-items is the cross axis
 .container:hover::before {
   --scale: 1;
 }
-
+/*flexbox end*/
+/*images*/
 .img-1 {
   background-image: url("DSC02252.JPEG");
   height: 400px;
 }
 
 .img-2 {
-  background-image: url(https://www.marciocunha.eti.br/wp-content/uploads/2023/01/html5.jpg);
+  background-image: url(./Screenshot-Hori.png);
   height: 200px;
 }
 
 .img-3 {
-  background-image: url(https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.png);
+  background-image: url(githubpage.png);
   height: 200px;
 }
 
@@ -169,7 +171,7 @@ align-items is the cross axis
   background-image: url(https://amalieshaffer.com//wp-content/uploads/2021/05/lets-connect.png);
   height: 200px;
 }
-
+/*images end*/
 .card-title {
   font-size: 20px;
   text-decoration-line: underline;
@@ -180,7 +182,7 @@ align-items is the cross axis
 }
 
 footer {
-  margin-top: 200px;
+  margin-top: 400px;
   text-align: center;
   color: rgb(184, 184, 231);
 }
@@ -250,6 +252,8 @@ button:hover {
     max-width: 1200px;
   }
 }
+
+/*GRID*/
 .col-1 {
   width: 8.33%;
 }
